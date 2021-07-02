@@ -1,0 +1,9 @@
+http.host: "0.0.0.0"
+
+#xpack.monitoring.elasticsearch.hosts: [ "http://els-elasticsearch:9200" ]
+#xpack.monitoring.elasticsearch.username: logstash
+#xpack.monitoring.elasticsearch.password: pasword
+
+config.reload.automatic: true
+
+path.config: /usr/share/logstash/config/conf.d

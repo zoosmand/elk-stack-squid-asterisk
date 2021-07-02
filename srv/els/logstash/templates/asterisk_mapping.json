@@ -1,0 +1,28 @@
+{
+  "index_patterns": ["asterisk-*"],
+  "mappings": {
+    "doc": {
+      "properties": {
+        "clid": { "type": "keyword" },
+        "src": { "type": "keyword" },
+        "dst": { "type": "keyword" },
+        "context": { "type": "keyword" },
+        "callername": { "type": "keyword" },
+        "callerid": { "type": "keyword" },
+        "src_channel": { "type": "keyword" },
+        "dst_channel": { "type": "keyword" },
+        "lastapp": { "type": "keyword" },
+        "agent": { "type": "keyword" },
+        "start": { "type": "keyword" },
+        "answer": { "type": "keyword" },
+        "end": { "type": "keyword" },
+        "duration": { "type": "integer" },
+        "billsec": { "type": "integer" },
+        "status": { "type": "keyword" },
+        "disposition": { "type": "keyword" },
+        "uniqueid": { "type": "keyword" },
+        "msg": { "type": "keyword" }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/squid/access.log
+  fields:
+    type: squid
+
+# ---------------------------- Elasticsearch Output ----------------------------
+#output.elasticsearch:
+#  hosts: ["els-logstash.company.local:9200"]
+
+# ------------------------------ Logstash Output -------------------------------
+output.logstash:
+  hosts: ["els-logstash.company.local:5046"]
+

@@ -1,0 +1,20 @@
+{
+ "index_patterns": ["squid-*"],
+ "mappings": {
+   "doc": {
+     "properties": {
+       "content_type": { "type": "keyword" },
+       "user_auth": { "type": "keyword" },
+       "cache_result": { "type": "keyword" },
+       "user_address": { "type": "ip" },
+       "user_agent": { "type": "keyword" },
+       "path": { "type": "keyword" },
+       "request_method": { "type": "keyword" },
+       "http_proto": { "type": "keyword" },
+       "url": { "type": "keyword" },
+       "param_1": { "type": "keyword" },
+       "param_2": { "type": "keyword" }
+      }
+    }
+  }
+}
